@@ -9,10 +9,10 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/gipfelen/javascript.git",
-            from: "1.0"),
+            from: "1.0.0"),
         .package(
             url: "https://github.com/gipfelen/test.git",
-            from: "1.0")
+            from: "1.0.0")
     ],
     targets: [
         .target(
