@@ -8,11 +8,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/tris-code/javascript.git",
-            .branch("master")),
+            url: "https://github.com/gipfelen/javascript.git",
+            from: "1.0"),
         .package(
-            url: "https://github.com/tris-code/test.git",
-            .branch("master"))
+            url: "https://github.com/gipfelen/test.git",
+            from: "1.0")
     ],
     targets: [
         .target(
